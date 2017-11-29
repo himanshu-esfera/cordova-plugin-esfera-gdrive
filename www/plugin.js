@@ -1,9 +1,9 @@
 
 var exec = require('cordova/exec');
 
-var PLUGIN_NAME = 'CordovaPluginEsferaGdrive';
+var PLUGIN_NAME = 'MyCordovaPlugin';
 
-var CordovaPluginEsferaGdrive = {
+var MyCordovaPlugin = {
   echo: function(phrase, cb) {
     exec(cb, null, PLUGIN_NAME, 'echo', [phrase]);
   },
@@ -12,4 +12,4 @@ var CordovaPluginEsferaGdrive = {
   }
 };
 
-module.exports = CordovaPluginEsferaGdrive;
+module.exports = MyCordovaPlugin;

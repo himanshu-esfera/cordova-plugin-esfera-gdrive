@@ -1,8 +1,8 @@
 {
-  "name": "cordova-plugin-esfera-gdrive",
+  "name": "cordova-plugin-template",
   "version": "1.0.0",
   "cordova": {
-    "id": "cordova-plugin-esfera-gdrive",
+    "id": "cordova-plugin-template",
     "platforms": [
       "android",
       "ios",
