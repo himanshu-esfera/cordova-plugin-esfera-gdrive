@@ -16,13 +16,13 @@ import android.util.Log;
 
 import java.util.Date;
 
-public class CordovaPluginEsferaGdrive extends CordovaPlugin {
-  private static final String TAG = "CordovaPluginEsferaGdrive";
+public class MyCordovaPlugin extends CordovaPlugin {
+  private static final String TAG = "MyCordovaPlugin";
 
   public void initialize(CordovaInterface cordova, CordovaWebView webView) {
     super.initialize(cordova, webView);
 
-    Log.d(TAG, "Initializing CordovaPluginEsferaGdrive");
+    Log.d(TAG, "Initializing MyCordovaPlugin");
   }
 
   public boolean execute(String action, JSONArray args, final CallbackContext callbackContext) throws JSONException {

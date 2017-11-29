@@ -1,6 +1,6 @@
 #import <Cordova/CDVPlugin.h>
 
-@interface CordovaPluginEsferaGdrive : CDVPlugin {
+@interface MyCordovaPlugin : CDVPlugin {
 }
 
 // The hooks for our plugin commands
