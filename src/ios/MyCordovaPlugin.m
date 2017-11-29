@@ -1,8 +1,8 @@
-#import "MyCordovaPlugin.h"
+#import "CordovaPluginEsferaGdrive.h"
 
 #import <Cordova/CDVAvailability.h>
 
-@implementation MyCordovaPlugin
+@implementation CordovaPluginEsferaGdrive
 
 - (void)pluginInitialize {
 }
